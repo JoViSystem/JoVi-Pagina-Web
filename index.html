@@ -121,6 +121,7 @@
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
         <a href="#servicios" class="nav-link hover:text-white transition">Servicios</a>
         <a href="#planes" class="nav-link hover:text-white transition">Planes</a>
+        <a href="#catalogo" class="nav-link hover:text-white transition">Catálogo</a>
         <a href="#computacion" class="nav-link hover:text-white transition">Tecnología</a>
         <a href="#nosotros" class="nav-link hover:text-white transition">Nosotros</a>
         <a href="#contacto" class="nav-link hover:text-white transition">Contacto</a>
@@ -140,6 +141,7 @@
     <div id="mobile-menu" class="hidden md:hidden bg-jovi-black border-t border-white/10 px-6 py-6 flex flex-col gap-5 text-slate-200 font-medium">
       <a href="#servicios" class="mobile-link">Servicios</a>
       <a href="#planes" class="mobile-link">Planes</a>
+      <a href="#catalogo" class="mobile-link">Catálogo</a>
       <a href="#computacion" class="mobile-link">Tecnología</a>
       <a href="#nosotros" class="mobile-link">Nosotros</a>
       <a href="#contacto" class="mobile-link">Contacto</a>
@@ -241,7 +243,7 @@
       </div>
 
       <div id="content-pc" class="tab-content">
-        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
             <h3 class="text-xl font-bold mb-4 text-slate-900">Plan Básico</h3>
             <ul class="mb-6 space-y-2.5 text-slate-600 text-sm">
@@ -252,6 +254,19 @@
               <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Soporte básico y capacitación inicial</li>
             </ul>
             <p class="text-3xl font-extrabold text-slate-900">RD$13,990</p>
+            <p class="text-sm text-slate-500 mt-1">Pago único</p>
+          </div>
+
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
+            <h3 class="text-xl font-bold mb-4 text-slate-900">Plan Pro</h3>
+            <ul class="mb-6 space-y-2.5 text-slate-600 text-sm">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> CPU, monitor de 19", teclado y mouse</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Caja registradora e impresora térmica 80 mm</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Lector de código de barras incluido</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Cables de video y corriente incluidos</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Soporte técnico y garantía</li>
+            </ul>
+            <p class="text-3xl font-extrabold text-slate-900">RD$16,990</p>
             <p class="text-sm text-slate-500 mt-1">Pago único</p>
           </div>
 
@@ -269,11 +284,25 @@
             <p class="text-3xl font-extrabold text-slate-900">RD$17,990</p>
             <p class="text-sm text-slate-500 mt-1">Pago único</p>
           </div>
+
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
+            <h3 class="text-xl font-bold mb-4 text-slate-900">Plan Empresarial</h3>
+            <ul class="mb-6 space-y-2.5 text-slate-600 text-sm">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> PC todo en uno, teclado y mouse</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Impresora térmica 80 mm y caja registradora</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Lector de código de barras</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Detector de billetes falsos</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Reportes, estadísticas y actualizaciones incluidas</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Soporte técnico garantizado</li>
+            </ul>
+            <p class="text-3xl font-extrabold text-slate-900">RD$25,000</p>
+            <p class="text-sm text-slate-500 mt-1">Pago único · Sin mensualidades</p>
+          </div>
         </div>
       </div>
 
       <div id="content-tablet" class="tab-content hidden">
-        <div class="max-w-md mx-auto">
+        <div class="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover text-center">
             <h3 class="text-xl font-bold mb-4 text-slate-900">Plan Tablet + Impresora</h3>
             <ul class="mb-6 space-y-2.5 text-slate-600 text-sm text-left">
@@ -284,6 +313,20 @@
               <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Capacitación inicial</li>
             </ul>
             <p class="text-3xl font-extrabold text-slate-900">RD$10,990</p>
+            <p class="text-sm text-slate-500 mt-1">Pago único</p>
+          </div>
+
+          <div class="relative bg-white p-7 rounded-2xl border-2 border-jovi-cyan-deep shadow-lg card-hover text-center">
+            <span class="absolute -top-3 left-6 bg-jovi-cyan-deep text-white text-xs font-bold px-3 py-1 rounded-full">Más completo</span>
+            <h3 class="text-xl font-bold mb-4 text-slate-900">Plan Tablet + Impresora Pro</h3>
+            <ul class="mb-6 space-y-2.5 text-slate-600 text-sm text-left">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Tablet</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Impresora térmica 58 mm</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Sistema de punto de venta en la nube</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Soporte básico</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Capacitación inicial</li>
+            </ul>
+            <p class="text-3xl font-extrabold text-slate-900">RD$12,500</p>
             <p class="text-sm text-slate-500 mt-1">Pago único</p>
           </div>
         </div>
@@ -301,6 +344,152 @@
             </ul>
             <p class="text-3xl font-extrabold text-slate-900">RD$6,990</p>
             <p class="text-sm text-slate-500 mt-1">Pago único</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATÁLOGO ============ -->
+  <section id="catalogo" class="bg-slate-50 py-24 px-4 border-y border-slate-200">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-jovi-cyan-deep font-semibold text-sm tracking-widest uppercase">Todo para tu negocio</span>
+        <h2 class="font-display text-3xl md:text-4xl font-bold mt-3 text-slate-900">Catálogo de Productos y Servicios</h2>
+        <p class="text-slate-600 mt-4">Equipos, accesorios y servicios adicionales para complementar tu punto de venta.</p>
+      </div>
+
+      <div class="flex justify-center mb-10">
+        <div class="inline-flex flex-wrap justify-center bg-white border border-slate-200 rounded-full p-1 shadow-sm gap-1">
+          <button id="ctab-impresoras" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-white bg-jovi-cyan-deep transition">Impresoras Térmicas</button>
+          <button id="ctab-caja" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Caja Registradora</button>
+          <button id="ctab-lector" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Lector de Código</button>
+          <button id="ctab-detector" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Detector de Billetes</button>
+          <button id="ctab-reparacion" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Reparación de PC</button>
+          <button id="ctab-windows" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Venta de Windows</button>
+          <button id="ctab-juegos" class="cat-tab-btn px-4 py-2 rounded-full text-sm font-semibold text-slate-600 hover:text-jovi-cyan-deep transition">Juegos para PC</button>
+        </div>
+      </div>
+
+      <div id="ccontent-impresoras" class="cat-tab-content">
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Impresora Térmica 58 mm</h3>
+            <p class="text-slate-600 text-sm mb-4">Rápida, confiable y de conexión USB. No necesita tinta ni tóner, ideal para recibos y comprobantes.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Diseño compacto</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Compatible con la mayoría de sistemas POS</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Ideal para tiendas, restaurantes y farmacias</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Impresora Térmica V6 80 mm</h3>
+            <p class="text-slate-600 text-sm mb-4">Alto rendimiento, bajo nivel de ruido y protección contra sobrecalentamiento. Ideal para uso continuo.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Papel térmico de 80 mm</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Conectividad USB</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Construcción resistente para uso prolongado</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-caja" class="cat-tab-content hidden">
+        <div class="max-w-md mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover text-center">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Caja Registradora</h3>
+            <p class="text-slate-600 text-sm mb-4">Seguridad, organización y control del efectivo en cada transacción.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm text-left">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Cerradura metálica con llave de seguridad</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> 5 compartimentos para billetes y 4 para monedas</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Fabricada en acero de alta calidad</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Compatible con la mayoría de impresoras y sistemas POS</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-lector" class="cat-tab-content hidden">
+        <div class="max-w-md mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover text-center">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Lector de Código de Barras</h3>
+            <p class="text-slate-600 text-sm mb-4">Lectura rápida y precisa para agilizar el cobro en tu punto de venta.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm text-left">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Conexión sencilla plug & play</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Compatible con sistemas de facturación</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Ideal para tiendas, supermercados y farmacias</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-detector" class="cat-tab-content hidden">
+        <div class="max-w-md mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover text-center">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Detector de Billetes Falsos</h3>
+            <p class="text-slate-600 text-sm mb-4">Verifica la autenticidad de los billetes en segundos y protege el dinero de tu negocio.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm text-left">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Verificación rápida y confiable</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Fácil de usar</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Ideal para cualquier tipo de negocio</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-reparacion" class="cat-tab-content hidden">
+        <div class="max-w-2xl mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover">
+            <h3 class="text-xl font-bold mb-2 text-slate-900 text-center">Reparación de PC</h3>
+            <p class="text-slate-600 text-sm mb-4 text-center">Soluciones profesionales para tu computadora de escritorio o laptop, rápido, seguro y con garantía.</p>
+            <div class="grid sm:grid-cols-2 gap-2 text-slate-600 text-sm">
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Diagnóstico completo</p>
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Limpieza interna y externa</p>
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Mejora de rendimiento</p>
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Reparación de discos duros</p>
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Instalación de Windows y drivers</p>
+              <p class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Eliminación de virus y malware</p>
+            </div>
+            <div class="text-center mt-5">
+              <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar servicio →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-windows" class="cat-tab-content hidden">
+        <div class="max-w-md mx-auto">
+          <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm card-hover text-center">
+            <h3 class="text-xl font-bold mb-2 text-slate-900">Venta e Instalación de Windows</h3>
+            <p class="text-slate-600 text-sm mb-4">Instalación de sistema operativo Windows con drivers y programas básicos configurados.</p>
+            <ul class="mb-4 space-y-2 text-slate-600 text-sm text-left">
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Instalación rápida y segura</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Configuración de drivers y actualizaciones</li>
+              <li class="flex gap-2"><span class="text-jovi-cyan-deep">✓</span> Soporte técnico incluido</li>
+            </ul>
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Solicitar cotización →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="ccontent-juegos" class="cat-tab-content hidden">
+        <div class="max-w-4xl mx-auto">
+          <p class="text-center text-slate-600 text-sm mb-6">Juegos originales y de calidad, entrega digital rápida y precios accesibles — desde RD$350 hasta RD$600.</p>
+          <div class="grid sm:grid-cols-3 gap-4 text-center">
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">Call of Duty: MWII</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$350</p></div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">Grand Theft Auto V</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$400</p></div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">Red Dead Redemption II</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$450</p></div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">EA Sports FC 24</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$400</p></div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">Forza Horizon 5</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$450</p></div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200"><p class="font-semibold text-slate-900 text-sm">Elden Ring</p><p class="text-jovi-cyan-deep font-bold mt-1">Desde RD$600</p></div>
+          </div>
+          <div class="text-center mt-6">
+            <a href="https://wa.me/18096947000" target="_blank" rel="noopener" class="text-jovi-cyan-deep font-semibold text-sm hover:underline">Consultar disponibilidad →</a>
           </div>
         </div>
       </div>
@@ -436,6 +625,7 @@
       <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
         <a href="#servicios" class="hover:text-jovi-cyan transition">Servicios</a>
         <a href="#planes" class="hover:text-jovi-cyan transition">Planes</a>
+        <a href="#catalogo" class="hover:text-jovi-cyan transition">Catálogo</a>
         <a href="#nosotros" class="hover:text-jovi-cyan transition">Nosotros</a>
         <a href="#contacto" class="hover:text-jovi-cyan transition">Contacto</a>
       </nav>
@@ -486,6 +676,24 @@
         tab.classList.add('bg-jovi-cyan-deep', 'text-white');
         tab.classList.remove('text-slate-600');
         const contentId = tab.id.replace('tab', 'content');
+        document.getElementById(contentId).classList.remove('hidden');
+      });
+    });
+
+    // Pestañas del catálogo
+    const catTabs = document.querySelectorAll('.cat-tab-btn');
+    const catContents = document.querySelectorAll('.cat-tab-content');
+    catTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        catTabs.forEach(t => {
+          t.classList.remove('bg-jovi-cyan-deep', 'text-white');
+          t.classList.add('text-slate-600');
+        });
+        catContents.forEach(c => c.classList.add('hidden'));
+
+        tab.classList.add('bg-jovi-cyan-deep', 'text-white');
+        tab.classList.remove('text-slate-600');
+        const contentId = tab.id.replace('ctab', 'ccontent');
         document.getElementById(contentId).classList.remove('hidden');
       });
     });
